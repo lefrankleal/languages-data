@@ -2,11 +2,11 @@ import { Language } from './index.d';
 import langs from './languages.json'
 
 class LanguagesData {
-  public getAllLanguages(): Language[] {
+  public getAll(): Language[] {
     return langs
   }
 
-  public getLangByCode(code: string): Language | {} {
+  public getByCode(code: string): Language | {} {
     let codex = langs.findIndex((v: any) => {
       return v.code === code
     })
