@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Languages data, updated",
   "main": "dist/index.js",
-  "author": "Frank Leal <falg2@hotmail.com>",
+  "author": {
+    "name": "Frank Leal",
+    "email": "falg2@hotmail.com"
+  },
   "license": "MIT",
   "homepage": "https://github.com/lefrankleal/languages-data#readme",
   "repository": {
