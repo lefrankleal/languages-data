@@ -5,6 +5,20 @@
   "main": "dist/index.js",
   "author": "Frank Leal <falg2@hotmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/lefrankleal/languages-data#readme",
+  "repository": {
+    "url": "git+https://github.com/lefrankleal/languages-data.git",
+    "type": "git"
+  },
+  "keywords": [
+    "languages",
+    "global",
+    "search",
+    "filter"
+  ],
+  "bugs": {
+    "url": "https://github.com/lefrankleal/languages-data/issues"
+  },
   "scripts": {
       "build": "tsc",
       "test": "jest"
